@@ -224,7 +224,7 @@ while True:
             
             if win_check(game_board, player1_marker):
                 display_board(game_board)
-                print('Player 1 won the game Bitches, Fuck you Player 2')
+                print('Player 1 won the game')
                 game_on = False
             else:
                 if full_board_check(game_board):
@@ -243,7 +243,7 @@ while True:
             
             if win_check(game_board, player2_marker):
                 display_board(game_board)
-                print('Player 2 won the game Bitches, Fuck you Player 1')
+                print('Player 2 won the game')
                 game_on = False
             else:
                 if full_board_check(game_board):
